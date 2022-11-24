@@ -1,0 +1,38 @@
+.Deha-About {
+    display: flex;
+    justify-content: center;
+}
+.Deha-About__inner {
+    display: flex;
+    margin: 0 auto;
+    padding: 120px 120px;
+    column-gap: 90px;
+    &-left {
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &-text-header {
+            font-family: 'Avenir', sans-serif;
+            font-size: 25px;
+            font-weight: 600;
+            margin-top: 35px;
+            text-align: center;
+            color: #0F303F;
+            text-transform: uppercase;
+        }
+        &-text-title {
+            width: 627px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19px;
+            margin: 35px 0 90px;
+            color: #0F303F;
+            font-family: 'Avenir', sans-serif;
+            text-align: center;
+        }
+        &-text-image {
+            margin-left: 170px;
+        }
+    }
+}

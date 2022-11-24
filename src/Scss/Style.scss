@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Cormorant' , serif;
+}
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@import './Home/header.scss';
+@import './Home/Arrival.scss';
+@import './Home/Popular.scss';
+@import './Home/About.scss';
+@import './Footer/Footer.scss';
+@import './Pages/AboutUs/AboutUs.scss';
+@import './Pages/SecondBlock/SecondBlock.scss';
+@import './BrandsScss/Birkenstock/Birkenstock.scss';
+@import './BrandsScss/Brand/Brand.scss';
+@import './BrandsScss/BrandGeorgy/BrandGeorgy.scss';
+@import './BrandsScss/BrandGeorgy/BrandGeorgy.scss';
+@import './BrandsScss/BrandGeorgyLucy/BrandGeorgyLucy.scss';
+@import './BrandsScss/Deha-About/Deha-About.scss';
+@import './BrandsScss/Deha/Deha.scss';
+@import './BrandsScss/Vintage/Vintage.scss';
+@import './BrandsScss/BrandsHeader/BrandsHeader.scss'

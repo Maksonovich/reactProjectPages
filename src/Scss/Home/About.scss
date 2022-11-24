@@ -1,0 +1,40 @@
+.About {
+    background: #254A5A fixed;
+    width: 1440px;
+    height: 500px;
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &-header {
+            display: flex;
+            flex-direction: column;
+            width: 629px;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 90%;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: #EAE9E8;
+            &-secondSymbol {
+                font-size: 70px;
+                color: #FFFFFF;
+            }
+        }
+        &-title {
+            width: 465px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            color: #FFFFFF;
+            margin-top: 20px;
+        }
+        &-image {
+            margin-top: 130px;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.Footer {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__inner-contacts-header {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 102.5%;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #0F303F;
+    }
+    &__inner-contacts-search {
+        width: 250px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #000;
+        margin: 40px 0 30px 133px;
+    }
+
+    &__inner-links {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    &__links{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #B7C1C5;
+        cursor: pointer;
+    }
+    &__links:hover {
+        color: grey;
+        transition: 0.3s;
+        font-size: 20px;
+    }
+    &__inner-addres {
+        display: flex;
+    }
+}

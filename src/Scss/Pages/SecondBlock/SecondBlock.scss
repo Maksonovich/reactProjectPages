@@ -1,0 +1,52 @@
+.BlockTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &_Context {
+        padding: 113px 270px;
+    }
+    &_Header {
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 34px;
+        text-align: left;
+        text-transform: uppercase;
+        color: #0F303F;
+    }
+    &_title {
+        width: 627px;
+    }
+    &__second-image {
+        margin-left: 199px;
+        margin-bottom: 100px;
+    }
+    &_two {
+        height: 280px;
+        transform: translateY(50px) translateX(147px);
+    }
+    &_images-Two {
+        display: flex;
+        padding-top: 82px;
+        flex-direction: row;
+    }
+    &_title-Content {
+        background-color: #EAE9E8;
+        width: 1440px   ;
+        height: 275px;
+    }
+    &-textIn {
+        padding-top: 110px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &-text {
+        width: 500px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #000;
+        opacity: 0.7;
+    }
+}

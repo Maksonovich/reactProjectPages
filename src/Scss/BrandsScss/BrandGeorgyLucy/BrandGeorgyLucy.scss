@@ -1,0 +1,29 @@
+.BrandGeorgyLucy {
+    padding: 120px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &_inner {
+        display: flex;
+        justify-content: center;
+        &-main {
+            padding-left: 87px;
+        }
+        &-header {
+            font-weight: 800;
+            font-size: 25px;
+            line-height: 34px;
+            text-transform: uppercase;
+            color: #0F303F;
+            padding: 70px 0 50px 0;
+        }
+        &-title {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            color: #0F303F;
+            opacity: 0.7;
+            width: 627px;
+        }
+    }
+}

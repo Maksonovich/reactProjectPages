@@ -1,0 +1,103 @@
+.header{
+    padding: 22px 0 100px 0;
+    margin: 0 40px;
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0 20px;
+    }
+    &__menu {
+        display: flex;
+        column-gap: 40px;
+        align-items: center;
+        &__link {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #0f300f;
+        }
+    }
+    &__search {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        &-text {
+            font-weight: 400;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #0f300f;            
+        }
+        &-field {
+            width: 150px;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #0f303f;
+        }
+    }
+    &__right {
+        display: flex;
+        column-gap: 50px;
+        align-items: center;
+    }
+    &__lang , &__icons {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+    }
+    &__lang-link {
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #0f303f;
+    }
+    &__main {        
+        background: url('../../Assets/Home/Header/HeaderBackground.png');
+        // background-size: cover;
+        background-repeat: no-repeat;
+        // background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 585px;
+        width: 100%;
+        &-title , &-subtitle {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: #EAE9E8;
+        }
+        &-subtitle {
+            font-size: 35px;
+            margin: 30px;
+        }
+        &-link {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            text-align: center;
+            letter-spacing: 0.045em;
+            text-transform: uppercase;
+            color: #EAE9E8;
+        }
+        &-numbers {
+            position: fixed;
+            display: flex;
+            gap: 50px;
+            margin-top: 500px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 17px;
+            text-align: center;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
